@@ -1,0 +1,36 @@
+.cuadricula {
+    border: 2px salmon;
+    border-radius: 5px;
+    background-color: beige;
+    display: grid;
+    grid-template-columns: repeat(3, fr);
+    gap: 10px; /*epacio de las columnas*/
+}
+
+.box {
+    border: 2px salmon;
+    border-radius: 5px;
+    background-color: beige;
+    padding: 1em;
+    color: cornflowerblue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    box-sizing: border-box; /*para no afectar los tamaños de los cuadros*/
+}
+
+.nested {
+    border: 2px saddlebrown;
+    border-radius: 5px;
+    background-color: brown;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.box2, .box3, .box4, .box5 {
+    border: 2px sandybrown;
+    border-radius: 5px;
+    background-color: brown;
+    padding: 1em;
+    color: blueviolet;
+}
